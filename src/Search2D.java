@@ -11,7 +11,7 @@ public class Search2D {
             System.out.println();
         }
     }
-    //staircase
+    //stair case
      public static boolean optimizeSearch(int[][] matrix) {
          int key = 33;
          int row = 0;
