@@ -12,6 +12,7 @@ public class SubArray {
                 for (int k = start; k <= end; k++) {  //print
                     System.out.print(numbers[k] + " ");
 
+
                 }
                 System.out.println();
                 ts++;
