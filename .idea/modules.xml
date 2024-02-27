@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/Strings/Strings.iml" filepath="$PROJECT_DIR$/src/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/input.java.iml" filepath="$PROJECT_DIR$/input.java.iml" />
       <module fileurl="file://$PROJECT_DIR$/practis/practis.iml" filepath="$PROJECT_DIR$/practis/practis.iml" />
     </modules>
