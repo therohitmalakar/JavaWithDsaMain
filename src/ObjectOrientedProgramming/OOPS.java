@@ -1,4 +1,4 @@
-package OOPs;
+package ObjectOrientedProgramming;
 
 public class OOPS {
     public static void main(String[] args){

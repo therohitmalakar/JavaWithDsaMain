@@ -1,4 +1,4 @@
-package OOPs;
+package ObjectOrientedProgramming;
 
 public class GettersAndSetters {
     public static void main(String[] args){
