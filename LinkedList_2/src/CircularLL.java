@@ -29,6 +29,7 @@ public class CircularLL {
                 temp = temp.next;
             }while(temp != head);
         }
+        System.out.print("HEAD");
     }
 
     public static void main(String[] args){
