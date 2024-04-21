@@ -35,6 +35,7 @@ public class LinkedList {
             size++;
             if(tail == null){
                 head = tail = newNode;
+                return;
             }
             tail.next = newNode;
             tail = newNode;
