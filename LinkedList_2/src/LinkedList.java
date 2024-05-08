@@ -74,6 +74,22 @@ public class LinkedList {
             temp.next = newNode;
         }
 
+        // insert using recursion
+
+    public void insertRec(int data, int idx){
+            head= insertRec(data,idx,head);
+    }
+    public Node insertRec(int data, int idx, Node node){
+            if(idx == 0){
+                Node temp = new Node(data);
+
+                return temp;
+            }
+
+            node.next = insertRec(data,idx-1,node.next);
+            return node;
+    }
+
 
         //Remove from first in linked list
         public int removeFirst(){
@@ -117,19 +133,21 @@ public class LinkedList {
 
         public static void main(String[] args){
             LinkedList ll = new LinkedList();
-            ll.addFirst(2);
-            ll.addFirst(1);
+            ll.addLast(2);
+            ll.addLast(1);
             ll.addLast(3);
             ll.addLast(4);
-            ll.add(9,0);
+//            ll.add(9,0);
             ll.print();
-            ll.removeFirst();
-            System.out.println("after removing first node:");
+            ll.insertRec(88,2);
             ll.print();
-            ll.removeLast();
-            System.out.println("after removing last node:");
-            ll.print();
-            System.out.println("Size of Fianl ll "+ll.size);
+//            ll.removeFirst();
+//            System.out.println("after removing first node:");
+//            ll.print();
+//            ll.removeLast();
+//            System.out.println("after removing last node:");
+//            ll.print();
+//            System.out.println("Size of Fianl ll "+ll.size);
         }
     }
 
