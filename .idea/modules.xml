@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array list/Array list.iml" filepath="$PROJECT_DIR$/Array list/Array list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BST/BST.iml" filepath="$PROJECT_DIR$/BST/BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary Tree/Binary Tree.iml" filepath="$PROJECT_DIR$/Binary Tree/Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/DividenConquer/DividenConquer.iml" filepath="$PROJECT_DIR$/DividenConquer/DividenConquer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy Algorithm/Greedy Algorithm.iml" filepath="$PROJECT_DIR$/Greedy Algorithm/Greedy Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList_2/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList_2/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Strings/Strings.iml" filepath="$PROJECT_DIR$/src/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/input.java.iml" filepath="$PROJECT_DIR$/input.java.iml" />
       <module fileurl="file://$PROJECT_DIR$/practis/practis.iml" filepath="$PROJECT_DIR$/practis/practis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
     </modules>
   </component>
 </project>

@@ -9,11 +9,11 @@ public class FirstOccurence {
         return returnIndex(arr,k,i+1);
     }
 
-    public static int lastOccusrence(int[] arr, int k, int i){
+    public static int lastOccurence(int[] arr, int k, int i){
         if(i == arr.length){
             return -1;
         }
-        int isfound = lastOccusrence(arr,k,i+1);
+        int isfound = lastOccurence(arr,k,i+1);
         if(arr[i] == k && isfound == -1){
             return i;
         }
